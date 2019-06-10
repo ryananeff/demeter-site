@@ -44,13 +44,14 @@
     border-width: 1px;
     border-color: black;
     background-color: #E5E5E5;
+    max-width:100vh;
 }
 
 hr {
     background: #D8DCE6;
     transform: matrix(1, 0, 0, -1, 0, 0);
-    max-width:100vh;
     margin:auto;
+    max-width:100vh;
 }
 
 .title {
