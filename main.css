@@ -1,0 +1,133 @@
+.container-master {
+    font-family: 'Raleway', sans-serif, bold;
+    background-color: #E5E5E5;
+    background-image:url("images/demeter_bkg.svg");
+    background-position-x:50%;
+    background-position-y:50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+
+}
+.container {
+    font-family: 'Raleway', sans-serif, bold;
+    background-color: #ffffff;
+    max-width:100vh;
+
+}
+.navbar-brand .navbar-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight:700;
+    line-height: 46px;
+    background-color: #E5E5E5;
+}
+
+.navbar-menu{
+    background-color: #E5E5E5;
+}
+
+.navbar-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    color: #494949;
+    background-color: #E5E5E5;
+}
+
+.navbar {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 80%;
+    margin: auto;
+    border-bottom:1px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #E5E5E5;
+}
+
+hr {
+    background: #D8DCE6;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    max-width:100vh;
+    margin:auto;
+}
+
+.title {
+    font-weight:700;
+    font-size: 46px;
+    line-height: 46px;
+    color: #000000;
+    text-align:center;
+    padding-bottom:1em;
+}
+
+.subtitle {
+    font-size: 30px;
+    line-height: 46px;
+    color: #000000;
+    text-align: center;
+    padding-bottom:1em;
+}
+
+.hero .hero-body a.selected {
+    font-size: 17.3333px;
+    line-height: 19px;
+    text-align: right;
+    color: #53BE4B;
+}
+
+.hero .hero-body a {
+    font-size: 17.3333px;
+    font-weight:700;
+    line-height: 19px;
+    text-align: right;
+    color: #5D627A;
+}
+
+.demeterbox{
+  width: 100%;
+  max-width: 70vh;
+  height: auto;
+}
+
+#tickler{
+    min-width:280px;
+    max-width:300px;
+}
+
+.title{
+    max-width:1000px;
+    margin:auto;
+}
+
+.card{
+    box-shadow: -1px 13px 20px #F0F2F4;
+    border-radius: 5px;
+    min-height:300px;
+}
+
+.card-rectangle{
+  background: #66BB6A;
+  box-shadow: 0px 25px 25px rgba(118, 196, 125, 0.314538);
+  border-radius: 5px;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+}
+
+.level{
+  max-width:100vh;
+  margin:auto;
+  padding-top:1.5vh;
+}
+
+.content{
+  max-width:100vh;
+  margin:auto;
+}
+
+.level-item{
+  padding-left:10px;
+  padding-right:10px;
+}
