@@ -13,7 +13,7 @@
   <div class="container-master">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-          <a class="navbar-item">
+          <a class="navbar-item" href="">
           <img src="images/mangotango.png" alt="demeter logo" height="28">
           demeter
           </a>
@@ -25,13 +25,13 @@
       </div>
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end">
-          <a class="navbar-item">Home</a>
-          <a class="navbar-item">Product</a>
-          <a class="navbar-item">Team</a>
-          <a class="navbar-item">Blog</a>
-          <a class="navbar-item">Contact</a>
-          <p class="navbar-item"><a class="button">Login&nbsp;<i class="fas fa-angle-right"></i></a></p>
-          <p class="navbar-item"><a class="button is-success"><i class="far fa-user"></i>&nbsp;Sign up</a></p>
+          <a class="navbar-item" href="#features">Features</a>
+          <a class="navbar-item" href="#how">How it Works</a>
+          <a class="navbar-item" href="https://www.mangotango.nyc/team">Team</a>
+          <a class="navbar-item" href="https://www.mangotango.nyc/">Blog</a>
+          <a class="navbar-item" href="https://www.mangotango.nyc/contact">Contact</a>
+          <p class="navbar-item" href="#"><a class="button">Login&nbsp;<i class="fas fa-angle-right"></i></a></p>
+          <p class="navbar-item" href="https://www.mangotango.nyc/contact"><a class="button is-success"><i class="far fa-user"></i>&nbsp;Sign up</a></p>
         </div>
       </div>
     </nav>
@@ -45,7 +45,7 @@
           Understand your nutrition from the inside out
         </p>
         <div class="level">
-        <div class="level-item has-text-centered">
+        <!--<div class="level-item has-text-centered">
           <table id="tickler">
           <tr><td>
                 <a href="#" class="selected">See the science&nbsp;<i class="fas fa-angle-right"></i></a></td>
@@ -53,7 +53,7 @@
                 <a href="#" class="level-item has-text-centered">Testimonials&nbsp;<i class="fas fa-angle-right"></i></a></td>
                 </tr>
                 </table>
-          </div>
+          </div>!-->
         </div>
       </div>
       <div class="level">
@@ -63,7 +63,7 @@
       </div>
       <div class="level">
         <div class="level-item has-text-centered">
-        <form action="/register_email" method="POST">
+        <form action="https://www.mangotango.nyc/contact#block-yui_3_17_2_1_1548865442284_17833" method="GET">
           <div class="field has-addons">
             <div class="control has-icons-left has-icons-right">
               <input class="input is-medium" type="email" placeholder="Your e-mail address">
@@ -72,9 +72,7 @@
               </span>
             </div>
             <div class="control">
-              <a class="button is-success is-medium">
-                Sign up
-              </a>
+              <input class="button is-success is-medium" type="submit" value="Sign up">
             </div>
             </form>
           </div>
@@ -82,7 +80,7 @@
     </section>
   </div>
   <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C112.30,171.20 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #E5E5E5;"></path></svg></div>
-  <section class="section">
+  <section class="section" id="features">
     <div class="container">
         <div class="tile is-ancestor">
           <div class="tile is-parent is-4">
@@ -121,7 +119,7 @@
         </div>
     </div>
   </section>
-  <section class="section is-hidden-mobile">
+  <section class="section is-hidden-mobile" id="how">
     <div class="container">
       <h1 class="title">How it Works</h1>
       <img src="images/demeter_how.svg">
@@ -143,7 +141,7 @@
               <div class="card level-item is-8">
                 <div class="card-content">
                 <p class="title is-3">Learn about the team behind this project</p>
-                <a class="button is-medium is-success is-rounded is-fullwidth">About us</a>
+                <a class="button is-medium is-success is-rounded is-fullwidth" href="https://www.mangotango.nyc/team">About us</a>
                 </div>
                </div>
           </div>
@@ -156,27 +154,27 @@
           <div class="tile is-parent is-3">
               <div class="tile is-child">
                   <p class="title is-5 has-text-left">COMPANY</p>
-                  <p>About Us</p>
-                  <p>Team</p>
-                  <p>Careers</p>
-                  <p>Contact</p>
+                  <p><a href="https://www.mangotango.nyc/">About Us</a></p>
+                  <p><a href="https://www.mangotango.nyc/team">Team</a></p>
+                  <p><a href="https://www.mangotango.nyc/contact">Careers</a></p>
+                  <p><a href="https://www.mangotango.nyc/contact">Contact</a></p>
               </div>
             </div>
             <div class="tile is-parent is-3">
               <div class="tile is-child">
                   <p class="title is-5 has-text-left">PRODUCT</p>
-                  <p>Features</p>
-                  <p>How it works</p>
-                  <p>Pricing</p>
-                  <p>Login</p>
+                  <p><a href="#features">Features</a></p>
+                  <p><a href="#how">How it works</a></p>
+                  <p><a href="https://www.mangotango.nyc/contact">Pricing</a></p>
+                  <p><a href="#">Login</a></p>
               </div>
             </div>
             <div class="tile is-parent is-3">
               <div class="tile is-child">
                   <p class="title is-5 has-text-left">LEGAL</p>
-                  <p>Privacy</p>
-                  <p>Terms</p>
-                  <p>Security</p>
+                  <p><a href="#">Privacy</a></p>
+                  <p><a href="#">Terms</a></p>
+                  <p><a href="#">Security</a></p>
               </div>
             </div>
             <div class="tile is-parent is-3">
@@ -190,10 +188,11 @@
     <hr>
     <div class="level">
     <div class="level-left">
-      <i class="fab fa-twitter"></i>&nbsp;
-      <i class="fab fa-linkedin"></i>&nbsp;
-      <i class="fab fa-youtube"></i>&nbsp;
-      <i class="fab fa-instagram"></i>&nbsp;
+      <!--<i class="fab fa-twitter"></i>&nbsp;!-->
+      <a href="https://www.linkedin.com/company/14014865/"><i class="fab fa-linkedin"></i>&nbsp;</a>
+      <!--<i class="fab fa-youtube"></i>&nbsp;!-->
+      <a href="https://www.instagram.com/demeterhealth/">
+      <i class="fab fa-instagram"></i>&nbsp;</a>
     </div>
       <div class="level-right">
       <img src="images/demeter_HIPAA.svg">&nbsp; &copy; Copyright 2019. Demeter, Inc.
