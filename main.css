@@ -9,6 +9,20 @@
     padding-bottom: 5vh;
 }
 
+.is-horizontal-center {
+  margin: auto;
+  justify-content: center;
+}
+
+.image img { 
+    height: 100%; 
+    object-fit: cover; }
+
+.container-top {
+    font-family: 'Raleway', sans-serif, bold;
+    background-color: #E5E5E5;
+}
+
 .container {
     font-family: 'Raleway', sans-serif, bold;
     background-color: #ffffff;
